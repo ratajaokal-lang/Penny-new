@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Penny</title>
+<meta name="description" content="Penny, your cozy savings buddy.">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Penny">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="theme-color" content="#FFF6EC">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" href="icon-192.png">
+<style>
+:root { --cream: #FFF6EC; --ink: #4A2E22; color-scheme: light; }
+@font-face{font-family:'Fredoka_500Medium';font-weight:normal;font-style:normal;font-display:swap;src:url(https://fonts.gstatic.com/s/fredoka/v17/X7n64b87HvSqjb_WIi2yDCRwoQ_k7367_DWu89XgHPyh.woff2) format('woff2')}
+@font-face{font-family:'Fredoka_600SemiBold';font-weight:normal;font-style:normal;font-display:swap;src:url(https://fonts.gstatic.com/s/fredoka/v17/X7n64b87HvSqjb_WIi2yDCRwoQ_k7367_DWu89XgHPyh.woff2) format('woff2')}
+@font-face{font-family:'Nunito_400Regular';font-weight:normal;font-style:normal;font-display:swap;src:url(https://fonts.gstatic.com/s/nunito/v32/XRXV3I6Li01BKofINeaBTMnFcQ.woff2) format('woff2')}
+@font-face{font-family:'Nunito_700Bold';font-weight:normal;font-style:normal;font-display:swap;src:url(https://fonts.gstatic.com/s/nunito/v32/XRXV3I6Li01BKofINeaBTMnFcQ.woff2) format('woff2')}
+html, body { height: 100%; margin: 0; }
+body { background: var(--cream); color: var(--ink); overflow: hidden; font-family: 'Nunito_400Regular', system-ui, sans-serif;
+  box-sizing: border-box; padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
+#root { display: flex; height: 100%; flex: 1; max-width: 480px; margin-inline: auto; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+<noscript>Penny needs JavaScript to run.</noscript>
+<script src="app.js" defer></script>
+</body>
+</html>
